@@ -395,10 +395,11 @@
 	</section>
 	<!-- END CONTACT -->
  <section id="contact">
-    <h2>Contact Me</h2>
+    <h2>Contact Me!</h2>
     <div class="form-container">
-        <!-- Form with Public Access Key -->
-        <form id="userForm" action="https://formspree.io/f/e766a07d-6619-418d-9552-f86007b7daa6" method="POST">
+        <!-- Web3Forms Integration with Public Access Key -->
+        <form id="userForm" action="https://web3forms.com/api/v1/submit" method="POST">
+            <input type="hidden" name="access_key" value="e766a07d-6619-418d-9552-f86007b7daa6">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="tel" name="mobile" placeholder="Your Mobile Number" required pattern="[0-9]{10}">
             <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
